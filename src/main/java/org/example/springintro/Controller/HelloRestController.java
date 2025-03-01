@@ -10,16 +10,16 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloRestController {
 
 
-    // curl localhost:8080/hello -w "\n"
+
     //uc1
     @GetMapping(value = {"", "/", "/home"})
     public String sayHello() {
-        return "Hello Abhay this is my first spring boot application";
+        return "Hello From BridgeLabz! ! !";
 
     }
-
+// UC2
     @GetMapping("/query")
     public String sayHello(@RequestParam String name){
-        return "Hello " + name+" Thanks for using my application";
+        return "Hello " + name+" from Bridgelabcz";
     }
 }
