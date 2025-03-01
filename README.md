@@ -53,13 +53,13 @@ Hello Abhay Thanks for using my application
 ```json
 {
   "firstName": "Abhay",
-  "lastName": "Kumar"
+  "lastName": "Goyal"
 }
 ```
 
 **Example Response:**
 ```json
-Hello Abhay Kumar Thanks for using my application
+Hello Abhay Goyal Thanks for using my application
 ```
 
 ---
